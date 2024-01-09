@@ -1,0 +1,287 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+
+  color: #081e34;
+  background-color: #f1f1f1;
+
+  user-select: none;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1440px;
+  width: 100%;
+}
+
+.button {
+  display: inline-block;
+
+  padding: 16px 24px;
+  border-radius: 100px;
+  background: #712fff;
+  color: #fff;
+  text-align: center;
+
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+h2 {
+  font-family: Kanit;
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 64px;
+}
+
+/* header */
+.header {
+}
+
+.header .inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 12px 80px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 18.675px;
+  height: 22px;
+
+  margin-right: 10px;
+}
+
+.logo span {
+  font-family: Kanit;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+
+.navigation {
+  display: flex;
+}
+
+.navigation a {
+  font-size: 14px;
+
+  color: #000;
+  padding: 10px 12px;
+  text-decoration: none;
+
+  margin-left: 16px;
+}
+
+.navigation a.rounted {
+  border-radius: 100px;
+  background: rgba(8, 30, 52, 0.12);
+}
+
+/* sections */
+
+/* description */
+
+.description .inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 100px 80px;
+}
+
+.description .left {
+  width: 500px;
+}
+
+.description .left h2 {
+  margin-top: 0;
+  margin-bottom: 32px;
+}
+
+.description .left p {
+  font-weight: 500;
+  line-height: 22px;
+
+  margin-top: 0;
+  margin-bottom: 48px;
+}
+
+.how-it-works .inner {
+  padding: 100px 80px;
+  border-radius: 32px;
+  background: #e1dee7;
+
+  text-align: center;
+}
+
+.how-it-works p {
+  font-size: 12px;
+
+  margin: 0;
+}
+
+.how-it-works h2 {
+  margin: 12px 0 86px 0;
+}
+
+.how-it-works ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 40px;
+
+  list-style-type: none;
+}
+
+.how-it-works ul li {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.how-it-works ul li h3 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+
+  margin: 48px 0 12px 0;
+}
+
+.how-it-works ul li p {
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.lets-get-started .inner {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+
+  padding: 100px 80px;
+}
+
+.lets-get-started p {
+  font-weight: 500;
+  line-height: 22px;
+
+  margin: 32px 0;
+
+  width: 495px;
+}
+
+.lets-get-started form input {
+  min-width: 500px;
+
+  padding: 15px;
+  border-radius: 12px;
+  border: 1px solid #e1dee7;
+  background: #fff;
+
+  margin-right: 32px;
+
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+
+  outline: none;
+}
+
+.lets-get-started form input:text {
+  color: rgba(0, 0, 0, 0.2);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.upload-your-cv .inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 64px 80px;
+}
+
+.upload-your-cv img {
+  border-radius: 24px;
+
+  width: 619px;
+  height: 420px;
+}
+
+.upload-your-cv .left {
+  margin-right: 128px;
+}
+
+.upload-your-cv .right p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+
+  margin: 32px 0;
+}
+
+/* footer */
+.footer .inner {
+  border-radius: 32px 32px 0px 0px;
+  background: #fff;
+  padding: 32px 80px;
+}
+
+.footer .menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer .menu p {
+  opacity: 0.5;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.footer .made {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  margin-top: 32px;
+}
+
+.footer .made p {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}
